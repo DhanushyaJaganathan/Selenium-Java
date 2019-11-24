@@ -33,8 +33,21 @@ public class FibonacciSeries {
 			
 			// Assign sum to the second number
 			
-		
+		int n=8;
+		int firstNum=0,secNum=1,sum=0;
+		System.out.println("Fibonacii Seies");
 
+		System.out.print(firstNum+" ");
+		System.out.print(secNum+ " ");
+		
+for(int i=2;i<8;i++) {	
+	sum=firstNum+secNum;
+	System.out.print(sum+" ");
+
+	firstNum=secNum;
+	secNum=sum;
+	
+}
 	}
 
 }

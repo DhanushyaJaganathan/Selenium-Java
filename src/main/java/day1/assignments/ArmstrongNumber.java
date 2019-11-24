@@ -47,9 +47,28 @@ public class ArmstrongNumber {
 			
 		
 		
-		
-		
-		
+		int n=153;
+		int calculator=0;
+		int remainder=0;
+		int quo=n;
+		int original=n;
+		while(n>0) {
+			remainder=n%10;
+			calculator=calculator+(remainder*remainder*remainder); 
+			 quo=n/10;
+			 n=quo;
+
+		}
+			if(original==calculator) {
+				
+				System.out.println("Given number is armstrong");
+			}else
+			{
+				System.out.println("Given number is not armstrong");
+
+			}
+			
+		}
 		
 		
 		
@@ -58,4 +77,3 @@ public class ArmstrongNumber {
 
 	}
 
-}

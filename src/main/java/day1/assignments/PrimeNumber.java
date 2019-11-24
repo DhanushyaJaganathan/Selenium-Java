@@ -40,8 +40,27 @@ public class PrimeNumber {
 			
 			// Print 'Not a Prime' when the condition doesn't match 
 			
-		
+		int a=8;
+boolean flag=false;
 
+	for(int i=2;i<=a/2;i++) {
+		if(a%i==0) 
+		{		
+			flag=true;
+			break;
+		}
 	}
 
-}
+		if (flag!=true) {
+		System.out.println("Given number is  Prime number");
+		} else
+		{
+			System.out.println("Given number is not  Prime number");
+
+		}
+		
+	}
+	
+	}
+
+

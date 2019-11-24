@@ -40,6 +40,23 @@ public class SumOfDigits {
 			// Print the quotient to confirm
 		
 		// Outside the loop: print the final sum
-	}
+		
+		int sum=123,quo=123;
+		int rem=0;
+		int s=0;
+		while(quo>0) {
+		rem=sum%10;
+		 System.out.println("Remainder "+rem);
+		 s=s+rem;
+		 System.out.println("Sum "+s);
+		 quo=sum/10;
+		 sum=quo;
+		 System.out.println("quoitent "+quo);
+		 
+		}
+		 System.out.println();
+		 System.out.println();
+		 System.out.println("toal sum :"+s);
 
+	}
 }
